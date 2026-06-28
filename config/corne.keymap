@@ -15,13 +15,13 @@
                 default_layer {
 // -----------------------------------------------------------------------------------------
 // |  TAB |  B  |  L  |  D  |  C  |  V  |   |  J  |  Y   |  O  |  U  |  ,  | BKSP |
-// | CTRL |  N  |  R  |  T  |  S  |  G  |   |  P  |  H   |  A  |  E  |  I  |  '   |
+// | CTRL |  N  |  R  |  T  |  S  |  G  |   |  P  |  H   |  A  |  E  |  I  | /    |
 // | SHFT |  X  |  Q  |  M  |  W  |  Z  |   |  K  |  F   |  '  |  ;  |  .  | ESC  |
 //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
                         display-name = "Base";
                         bindings = <
    &kp TAB   &kp B &kp L &kp D &kp C &kp V   &kp J &kp Y  &kp O     &kp U   &kp COMMA    &kp BSPC
-   &kp LCTRL &kp N &kp R &kp T &kp S &kp G   &kp P &kp H  &kp A     &kp E   &kp I &kp SQT
+   &kp LCTRL &kp N &kp R &kp T &kp S &kp G   &kp P &kp H  &kp A     &kp E   &kp I &kp FSLH
    &kp LSHFT &kp X &kp Q &kp M &kp W &kp Z   &kp K &kp F  &kp SQT &kp SEMI &kp DOT &kp ESC
                   &kp LGUI &mo 1 &kp SPACE   &kp RET &mo 2 &kp RALT
                         >;
